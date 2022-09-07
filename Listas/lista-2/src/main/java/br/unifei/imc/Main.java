@@ -8,7 +8,7 @@ public class Main {
 
         PessoaService p = new PessoaService();
         p.gerarArquivo(OpcaoArquivo.CSV);
-        p.gerarArquivo(OpcaoArquivo.JSON);
+        //p.gerarArquivo(OpcaoArquivo.JSON);
 
     }
 }

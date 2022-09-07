@@ -27,6 +27,7 @@ public class GeradorCSV implements GeradorArquivo{
                 writer.writeNext(dado);
             });
 
+            arquivo.close();
 
         }catch (IOException e){
             e.printStackTrace();
