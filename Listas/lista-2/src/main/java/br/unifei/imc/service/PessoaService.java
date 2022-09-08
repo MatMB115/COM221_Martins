@@ -27,9 +27,11 @@ public class PessoaService {
             if(op.equals(OpcaoArquivo.CSV)){
                 GeradorArquivo geraArquivoCVS = new GeradorCSV();
                 geraArquivoCVS.gerarArquivo(pessoas);
+                pessoas.removeAll(pessoas);
             }else{
                 GeradorArquivo geraArquivoJSON = new GeradorJSON();
                 geraArquivoJSON.gerarArquivo(pessoas);
+                pessoas.removeAll(pessoas);
             }
         }
     }
