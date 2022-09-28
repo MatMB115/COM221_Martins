@@ -1,11 +1,12 @@
 package br.unifei.imc.processador.observadores;
 
-public class ContaPalavrasMaiuscula implements Observador {
+public class ContaPalavrasMaiuscula implements ObservadorPalavra {
 
     private int numPalavras;
 
     @Override
     public int getNumPalavras() {
+
         return numPalavras;
     }
 

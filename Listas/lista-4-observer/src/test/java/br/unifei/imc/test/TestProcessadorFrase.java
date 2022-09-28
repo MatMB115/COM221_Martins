@@ -16,11 +16,13 @@ public class TestProcessadorFrase {
 
     @Before
     public void init(){
+
         processadorFrase = new ProcessadorFrase();
     }
 
     @Test(expected = SemProcessadoresException.class)
     public void testeSemProcessadores(){
+
         processadorFrase.processar(FRASE1);
     }
 
@@ -69,7 +71,7 @@ public class TestProcessadorFrase {
 
     @Test
     public void testeRemoveObservador(){
-        Observador obs = new ContaTodasPalavras();
+        ObservadorPalavra obs = new ContaTodasPalavras();
         processadorFrase.registrar(new ContaPalavrasMaiuscula());
         processadorFrase.registrar(new ContaPalavrasImpares());
         processadorFrase.registrar(obs);
