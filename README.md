@@ -9,8 +9,19 @@ Este repositório visa armazenar, versionar e executar as atividades propostas n
 ---
 
 ## Ambiente de desenvolvimento :computer:
+    > Linguagem: Java 11 OpenJDK
 
-A linguagem utilizada foi o Java 11 em conjunto com a IDE IntelliJ, a automatização da build foi feita com Maven e os testes unitários com JUnit.
+    > SO: Manjaro Linux - 5.15.72-1-MANJARO
+
+    > Shell: zsh 5.9
+
+    > IDE: IntelliJ IDEA 2022.2.2 (Community Edition)
+
+    > Build: Maven
+
+    > Testes: JUnit
+
+    > Versionamento: Git 2.38 + Github
 
 ## Design Patterns 🩹
 
@@ -35,6 +46,4 @@ Principais pontos para compreender o design:
 UML genérico do Strategy:
 
 ![UMLStrategy](https://imgur.com/JNRb4uX.png)
-
-## Observer 👀
 
