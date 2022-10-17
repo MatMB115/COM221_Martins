@@ -17,13 +17,17 @@ Este repositório visa armazenar, versionar e executar as atividades propostas n
 
     > IDE: IntelliJ IDEA 2022.2.2 (Community Edition)
 
-    > Build: Maven
+    > Build: Maven 4.0
 
-    > Testes: JUnit
+    > Testes: JUnit 4.13.2
 
     > Versionamento: Git 2.38 + Github
 
+    > Organization package: br.unifei.imc 
+
 ## Design Patterns 🩹
+
+Conforme problemas surgem, as soluções são necessárias! Esse é o papel dos design patterns! Alguém provavelmente já teve o mesmo problema que o seu e, após errar muito, pensou em como resolver de forma **eficiente**.
 
 A disciplina abordará os seguintes design patterns:
 
@@ -35,7 +39,7 @@ A disciplina abordará os seguintes design patterns:
 - [ ] State;
 - [ ] Decorator.
 
-## Strategy 👷‍♂️
+## Strategy 🤔
 
 Principais pontos para compreender o design:
 - Entender o problema do reuso pela herança;
@@ -47,3 +51,17 @@ UML genérico do Strategy:
 
 ![UMLStrategy](https://imgur.com/JNRb4uX.png)
 
+## Observer 👁️ + 🗼
+
+Principais pontos para compreender o design:
+
+- Define uma dependência “um para muitos”;
+- Quando um objeto mudar de estado (subject/observável), todos os seus dependentes são notificados automaticamente;
+- Busque acoplamento fraco(aceitável) entre objetos;
+- O Observável conhece apenas a interface do observador.
+
+UML genérico do Observer:
+
+![UMLObserver](https://imgur.com/VcBSyxb.png)
+
+## Command ⏮️ ⏯️ ⏭️
