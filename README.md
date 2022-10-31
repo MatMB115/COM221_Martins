@@ -65,3 +65,5 @@ UML genérico do Observer:
 ![UMLObserver](https://imgur.com/VcBSyxb.png)
 
 ## Command ⏮️ ⏯️ ⏭️
+
+Principais pontos para compreender o design:
