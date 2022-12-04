@@ -9,7 +9,7 @@ Este repositório visa armazenar, versionar e executar as atividades propostas n
 ---
 
 ## Ambiente de desenvolvimento :computer:
-    > Linguagem: Java 11 OpenJDK
+    > Linguagem: Java 11 - OpenJDK
 
     > SO: Manjaro Linux - 5.15.72-1-MANJARO
 
